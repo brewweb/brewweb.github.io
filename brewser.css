@@ -63,7 +63,7 @@ html, body {
 	width: 312px;
 	align-items: center;
 	padding-top: 25px;
-	padding-right: 25px;
+	padding-right: 10px;
 
 }
 
@@ -82,7 +82,7 @@ html, body {
 #searcher{
 	outline-color: transparent;
   	outline-style: none;
-	width: 280px;
+	width: 290px;
 	height: 20px;
 	font-size: 13px; 
     padding: 5px 5px 5px 5px; 
@@ -92,7 +92,7 @@ html, body {
 }
 
 #searchResults{
-	width: 310px;	
+	width: 300px;	
 	background-color: white;
 	position: absolute;
 	z-index: 1;
