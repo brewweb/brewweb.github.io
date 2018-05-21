@@ -732,8 +732,8 @@ function barsByBeerType(type){
 			childSnapshot.child("beers").forEach(function(beerchild){
 					if(beerchild.child("type").val() == type){
 						barFilter(childSnapshot);
+						return true;
 					}
-				
 			})
 		})
 	});		
